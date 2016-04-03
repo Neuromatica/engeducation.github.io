@@ -2,37 +2,125 @@
 <html>
 <head>
 	<meta charset="utf-8" />
-	<title>курсы английского</title>
+	<title>Курсы английского</title>
 	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
-	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" /> 
 	<link rel="shortcut icon" href="favicon.png" />
 	<link rel="stylesheet" href="libs/bootstrap/bootstrap-grid.min.css" />
-	<link rel="stylesheet" href="libs/font-awesome/css/font-awesome.min.css" />
-	<link rel="stylesheet" href="libs/linea/styles.css" />
-	<link rel="stylesheet" href="libs/magnific-popup/magnific-popup.css" />
-	<link rel="stylesheet" href="libs/animate/animate.min.css" />
-	<link rel="stylesheet" href="css/fonts.css" />
+	<link rel="stylesheet" href="libs/hover/hover-min.css" />
+	<link rel="stylesheet" href="libs/animate-min.css">
+	<link rel="stylesheet" href="libs/font-awesome/css/font-awesome.min.css">
 	<link rel="stylesheet" href="css/main.css" />
-	<link rel="stylesheet" href="css/skins/purple.css" />
 	<link rel="stylesheet" href="css/media.css" />
+	<link href='https://fonts.googleapis.com/css?family=Roboto:400,300,700' rel='stylesheet' type='text/css'>
 </head>
+
 <body>
-	
-<footer class="main_footer bg_dark">
-	<div class="container">
-		<div class="row">
-			<div class="contact_box">
-				<div class="col-md-6">
-					<h3>test</h3>
+	<header>
+		<div class="bg-xs visible-xs"></div>
+		<div class="bg-sm visible-sm"></div>
+		<div class="container-fluid hidden-xs hidden-sm">
+			<div class="row">
+				<div class="col-md-1 col-md-offset-7"><i class="contacts_icon fa fa-home"></i></div>
+				<div class="col-md-4">
+					<h4>Адрес:</h4>
+					<a class="hvr-icon-drop" href="https://yandex.ru/maps/-/CVHDmQyr" target="_blank" title="показать на карте" id="onmap"> <!-- Возможно ссылка отвалится -->
+						<p>Улица Короленко, 13, Барнаул, Алтайский край, Россия.</p>
+					</a>
 				</div>
-				<div class="col-md-6">
-					<h3>test2</h3>
+			</div>
+			<div class="row" id="header-row">
+				<div class="col-md-1 col-md-offset-7"><i class="contacts_icon fa fa-mobile" id="phoneico"></i></div>
+				<div class="col-md-4">
+					<h4>Телефон:</h4>
+					<p>+7 (952) 008 68 22</p>
+				</div>
 				</div>
 			</div>
 		</div>
-	</div>
-</footer>
+	</header>
+	<div class="title">
+		<div class="container animated fadeIn" id="title-pc">
+			<div class="row">
+				<h2 href="#" class="text1 col-md-12 animated fadeIn">Центр дополнительного образования</h2>
+				<h2 href="#" class="text2 col-md-12 animated fadeIn">Опытный преподаватель набирает детей на курсы английского языка</h2>
+			</div>
+		</div>
 
-test
+	</div>
+
+	<section class="info" id="section1">
+		<a name="info"></a>
+		<div class="container">
+			<center><h1>Предлагаем вам</h1></center>
+			<ul>
+				<li><h2><strong>Закрепление и дополнение школьной программы.</strong></h2></li>
+				<li><h2><strong>Индивидуальные занятия по английскому языку с нуля, до продвинутого уровня.</strong><br><small>Преподаватель составит для вас индивидуальный курс занятий, основываясь на ваших познаниях. Индивидуальные занятия более эффективны, чем занятия в группах.</small></h2></li>
+				<li><h2><strong>Подготовку к экзаменам.</strong></h2></li>
+			</ul>
+			</div>
+		</div>
+	</section>
+
+	<footer class="main_footer">
+		<div class="container hidden-xs hidden-sm" id="footer-pc">
+			<div class="row">
+				<div class="col-md-12">
+					<div class="col-md-1"><i class="contacts_icon fa fa-home"></i></div>
+					<div class="col-md-5">
+						<h4>Адрес:</h4>
+						<a href="https://yandex.ru/maps/-/CVHDmQyr" target="_blank" title="показать на карте"><p>Улица Короленко, 13, Барнаул, Алтайский край, Россия.</p></a> <!-- Возможно ссылка отвалится -->
+					</div>
+					<div class="col-md-1"><i class="contacts_icon fa fa-mobile"></i></div>
+					<div class="col-md-5">
+						<h4>Телефон:</h4>
+						<p>+7 (952) 008 68 22</p>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="container-fluid hidden-md hidden-lg" id="footer-pc">
+			<div class="row visible-sm">
+				<div class="col-sm-1"><i class="contacts_icon fa fa-home"></i></div>
+				<div class="col-sm-5">
+					<h4>Адрес:</h4>
+					<a href="https://yandex.ru/maps/-/CVHDmQyr" target="_blank" title="показать на карте"><p>Улица Короленко, 13, Барнаул, Алтайский край, Россия.</p></a> <!-- Возможно ссылка отвалится -->
+				</div>
+				<div class="col-sm-1"><i class="contacts_icon fa fa-mobile"></i></div>
+				<div class="col-sm-5">
+					<h4>Телефон:</h4>
+					<p>+7 (952) 008 68 22</p>
+				</div>
+			</div>
+			<div class="row visible-xs" id="footer-row-phone">
+				<div class="col-xs-1"><i class="contacts_icon fa fa-home"></i></div>
+				<div class="col-xs-11">
+					<h4>Адрес:</h4>
+					<a href="https://yandex.ru/maps/-/CVHDmQyr" target="_blank" title="показать на карте"><p>Улица Короленко, 13, Барнаул, Алтайский край, Россия.</p></a> <!-- Возможно ссылка отвалится -->
+				</div>
+			</div>
+			<div class="row visible-xs" id="footer-row-phone">
+				<div class="col-xs-1"><i class="contacts_icon fa fa-mobile"></i></div>
+				<div class="col-xs-11">
+					<h4>Телефон:</h4>
+					<p>+7 (952) 008 68 22</p>
+				</div>
+			</div>
+		</div>
+		<div class="cr">&copy; 2016 Neuromatica</div>
+	</footer>
+
+<div class="hidden"></div>
+	<!--[if lt IE 9]>
+	<script src="libs/html5shiv/es5-shim.min.js"></script>
+	<script src="libs/html5shiv/html5shiv.min.js"></script>
+	<script src="libs/html5shiv/html5shiv-printshiv.min.js"></script>
+	<script src="libs/respond/respond.min.js"></script>
+	<![endif]-->
+	<script src="libs/jquery/jquery-2.1.3.min.js"></script>
+	<script src="libs/jqBootstrapValidation/jqBootstrapValidation.js"></script>
+	<script src="js/common.js"></script>
+	<!-- Yandex.Metrika counter --><!-- /Yandex.Metrika counter -->
+	<!-- Google Analytics counter --><!-- /Google Analytics counter -->
 </body>
 </html>
