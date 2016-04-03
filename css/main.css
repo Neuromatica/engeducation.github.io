@@ -43,7 +43,6 @@ h4 {
 
 a {
   margin-top: -8px;
-  outline: none;
 }
 
 p {
@@ -54,7 +53,6 @@ p {
 }
 
 .hvr-icon-drop {
-  outline: none;
   -moz-osx-font-smoothing: grayscale;
   transition-property: transform;
 }
@@ -85,6 +83,10 @@ header .container-fluid .contacts_icon {
 header .container-fluid h4 {
   text-transform: uppercase;
   letter-spacing: 1px;
+}
+
+header .container-fluid a {
+  outline: none;
 }
 
 header .container-fluid a:before {
