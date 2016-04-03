@@ -1,0 +1,229 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  font-weight: normal;
+  font-size: 14px;
+  min-width: 320px;
+  position: relative;
+  line-height: 1.6;
+  font-smoothing: antialised;
+}
+
+c_accent {
+  color: #d6cca3;
+}
+
+h1 {
+  font-family: 'Roboto', sans-serif;
+  color: #eee;
+  font-weight: 700;
+}
+
+h2 {
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+  color: #eee;
+  font-weight: 400;
+}
+
+h3 {
+  font-family: 'Roboto', sans-serif;
+  color: #eee;
+  font-weight: 300;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+h4 {
+  margin-top: 4px;
+  margin-bottom: 4px;
+  font-family: 'Roboto', sans-serif;
+  color: #d6cca3;
+  font-weight: 300;
+}
+
+a {
+  margin-top: -8px;
+}
+
+p {
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+  color: #eee;
+  font-weight: 300;
+}
+
+.hvr-icon-drop {
+  -moz-osx-font-smoothing: grayscale;
+  transition-property: transform;
+}
+
+.hvr-grow:hover, .hvr-grow:focus, .hvr-grow:active {
+  transform: scale(1.2);
+}
+
+header {
+  line-height: 1;
+}
+
+header .container-fluid {
+  background-image: url("https://raw.githubusercontent.com/engeducation/engeducation.github.io/master/img/bg-header.png");
+  background-size: 100%;
+  background-size-padding-left: 0px;
+  background-size-padding-right: 0px;
+  height: 100%;
+}
+
+header .container-fluid .contacts_icon {
+  padding-top: 3px;
+  font-size: 240%;
+  color: #eee;
+  opacity: 0.2;
+}
+
+header .container-fluid h4 {
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+header .container-fluid a:before {
+  margin-top: -4px;
+  color: #eee;
+  opacity: 0.2;
+}
+
+header .container-fluid p {
+  font-size: 78%;
+}
+
+header .container-fluid .row {
+  height: 20%;
+}
+
+header .container-fluid .row .col-md-1 {
+  text-align: right;
+  padding-right: 0px;
+}
+
+.title {
+  border-top: 20px solid #e6e6e6;
+  border-bottom: 20px solid #e6e6e6;
+  background: linear-gradient(to top, #1e2438, #273243);
+  text-align: center;
+  text-shadow: 2px 4px 3px rgba(0, 0, 0, 0.3), 0px 0px 6px rgba(255, 255, 255, 0.7);
+}
+
+.title h2.text1 {
+  margin-top: 70px;
+  animation-duration: 2s;
+  animation-duration-margin-bottom: 0;
+  text-transform: uppercase;
+  letter-spacing: 10px;
+  letter-spacing-padding: 5px;
+  font-size: 220%;
+}
+
+.title h2.text2 {
+  margin-top: 0px;
+  animation-duration: 2s;
+  margin-bottom: 70px;
+  font-size: 134%;
+  font-weight: 300;
+  background-size: 510px;
+  animation-delay: 2s;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.info {
+  padding-top: 20px;
+  padding-bottom: 69px;
+  background-color: #eee;
+  line-height: 2;
+}
+
+.info h1 {
+  padding-bottom: 30px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  color: #1e2438;
+}
+
+.info h2 {
+  color: #1e2438;
+}
+
+.main_footer {
+  background: linear-gradient(to top, #6d4b49, #7c5a51);
+}
+
+.main_footer h4 {
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.main_footer a:before {
+  margin-top: -4px;
+  color: #eee;
+  opacity: 0.2;
+}
+
+.main_footer p {
+  font-size: 78%;
+}
+
+.main_footer .container, .main_footer .container-fluid {
+  padding-top: 20px;
+  color: #d6cca3;
+  line-height: 0.6;
+  margin-top: 20px;
+}
+
+.main_footer .container .contacts_icon, .main_footer .container-fluid .contacts_icon {
+  font-size: 240%;
+  color: #eee;
+  opacity: 0.2;
+}
+
+.main_footer .container .col-md-1, .main_footer .container-fluid .col-md-1 {
+  text-align: right;
+  padding-right: 0px;
+}
+
+.main_footer .container-fluid {
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
+.main_footer .container-fluid .row {
+  width: 100%;
+}
+
+.main_footer .container-fluid .row .col-sm-1 {
+  text-align: right;
+  padding-right: 0px;
+}
+
+.main_footer .container-fluid #footer-row-phone {
+  width: 100%;
+}
+
+.main_footer .container-fluid #footer-row-phone .col-xs-1 {
+  font-size: 80%;
+  text-align: right;
+  padding-right: 0px;
+}
+
+.main_footer .container-fluid #footer-row-phone .col-xs-11 {
+  padding-right: 0px;
+}
+
+.main_footer .cr {
+  margin-left: 12px;
+  color: #eee;
+  opacity: 0.2;
+  font-weight: 300;
+}
+
+.hidden {
+  display: none;
+}
