@@ -54,6 +54,7 @@ p {
 }
 
 .hvr-icon-drop {
+  outline: none;
   -moz-osx-font-smoothing: grayscale;
   transition-property: transform;
 }
