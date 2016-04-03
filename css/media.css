@@ -1,0 +1,142 @@
+/* Large Devices, Wide Screens */
+@media all and (max-width: 1200px) {
+  /**/
+  .title h2.text1 {
+    font-size: 240%;
+    letter-spacing: 4px;
+  }
+}
+
+/* Medium Devices, Desktops */
+@media all and (max-width: 992px) {
+  /**/
+  .bg-sm {
+    background-image: url("https://raw.githubusercontent.com/engeducation/engeducation.github.io/master/img/bg-header-sm.png");
+    height: 178px;
+  }
+  .title h2.text1 {
+    font-size: 188%;
+    letter-spacing: 4px;
+  }
+  .title h2.text2 {
+    font-size: 100%;
+  }
+  .main_footer .cr {
+    padding-top: 20px;
+    font-size: 90%;
+  }
+}
+
+/* Small Devices, Tablets */
+@media all and (max-width: 768px) {
+  .bg-xs {
+    background-image: url("https://raw.githubusercontent.com/engeducation/engeducation.github.io/master/img/bg-header-xs.png");
+    height: 138px;
+  }
+  .title {
+    text-shadow: none;
+  }
+  .title h2.text1 {
+    font-size: 188%;
+    letter-spacing: 0px;
+  }
+  .title h2.text2 {
+    font-size: 80%;
+  }
+  .main_footer .container-fluid #footer-row-phone {
+    padding-top: 10px;
+  }
+  .main_footer .cr {
+    padding-top: 20px;
+    font-size: 80%;
+  }
+  /*Disable Animation on Mobile Devices*/
+  .animated {
+    /*CSS transitions*/
+    -o-transition-property: none !important;
+    -moz-transition-property: none !important;
+    -ms-transition-property: none !important;
+    -webkit-transition-property: none !important;
+    transition-property: none !important;
+    /*CSS transforms*/
+    -o-transform: none !important;
+    -moz-transform: none !important;
+    -ms-transform: none !important;
+    -webkit-transform: none !important;
+    transform: none !important;
+    /*CSS animations*/
+    -webkit-animation: none !important;
+    -moz-animation: none !important;
+    -o-animation: none !important;
+    -ms-animation: none !important;
+    animation: none !important;
+  }
+}
+
+/* Extra Small Devices, Phones */
+@media all and (max-width: 640px) {
+  /**/
+  .title {
+    text-shadow: none;
+  }
+  .title h2.text1 {
+    font-size: 152%;
+  }
+  .title h2.text2 {
+    font-size: 80%;
+    letter-spacing: 0px;
+  }
+  .info h1 {
+    font-weight: 400;
+    font-size: 152%;
+    letter-spacing: 0px;
+  }
+  .info h2 {
+    font-size: 122%;
+    font-weight: 300;
+  }
+  .main_footer .container-fluid #footer-row-phone {
+    padding-top: 10px;
+  }
+  .main_footer .cr {
+    padding-top: 20px;
+    font-size: 80%;
+  }
+}
+
+/* Extra Small Devices, Phones */
+@media all and (max-width: 480px) {
+  /**/
+  .title {
+    text-shadow: none;
+  }
+  .title h2.text1 {
+    font-size: 100%;
+  }
+  .title h2.text2 {
+    font-size: 72%;
+  }
+  .info h2 {
+    font-size: 100%;
+  }
+  .main_footer .container-fluid #footer-row-phone {
+    padding-top: 10px;
+  }
+  .main_footer .cr {
+    padding-top: 20px;
+    font-size: 80%;
+  }
+}
+
+/* Custom, iPhone Retina */
+@media all and (max-width: 350px) {
+  /**/
+  .main_footer .container-fluid #footer-row-phone .col-xs-1 {
+    font-size: 0%;
+  }
+  .main_footer .container-fluid #footer-row-phone .col-xs-11 {
+    padding-left: 0px;
+  }
+}
+
+/* Custom, iPhone Retina */
