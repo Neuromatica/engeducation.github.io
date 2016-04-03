@@ -112,6 +112,8 @@
   }
   .title h2.text1 {
     font-size: 100%;
+    margin-top: 50px;
+    margin-bottom: 20px;
   }
   .title h2.text2 {
     font-size: 72%;
